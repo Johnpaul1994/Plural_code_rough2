@@ -1,0 +1,32 @@
+body {
+    font-family: 'DM Sans', sans-serif;
+}
+
+.hero h1{
+    color: #1E0E62;
+    padding-left: 60px;
+    padding-top: 40px;
+    font-size: 50px;
+}
+
+.para{
+    padding-left: 100px;
+}
+
+.logo {
+    color: #1E0E62;
+}
+
+.buttons {
+    padding-left: 100px;
+}
+
+.buttons button{
+    background-color: rgb(92, 230, 84);
+    border-radius: 25px;
+}
+
+.buttons .button1{
+    background-color: transparent;
+    padding: 5px 5px;
+}
