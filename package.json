@@ -1,0 +1,24 @@
+{
+  "name": "plural_code_rough2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./input.css -o ./css/main.css",
+    "watch": "tailwindcss -i ./input.css -o ./css/main.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Johnpaul1994/Plural_code_rough2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Johnpaul1994/Plural_code_rough2/issues"
+  },
+  "homepage": "https://github.com/Johnpaul1994/Plural_code_rough2#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.2.6"
+  }
+}

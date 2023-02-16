@@ -9,9 +9,26 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&display=swap" rel="stylesheet">
     <title>header 7</title>
+    <style>
+        .para h1 {
+    color: #1E0E62;
+}
+
+.spans {
+    color: #1E0E62;
+}
+
+body {
+    font-family: 'DM Sans', sans-serif;
+}
+
+.button2 button{
+    color: #1E0E62;
+}
+    </style>
 </head>
 <body>
-    <main class="flex h-50">
+    <main class="flex h-screen">
         <div class="left w-3/5">
             <nav class="flex my-10 pl-40">
                 <span class="spans text-2xl font-bold text-center mb-20">Startup 3</span>
@@ -37,11 +54,24 @@
         </div>
         
         
-        <div class="right w-2/5">
-            <img class="" src="/tailwind assignment/images/amina.png" alt="">
+        <div class="right w-2/5" >
+            <img class="min-h-full" src="/tailwind assignment/images/amina.png" alt="">
         </div>
     </main>
-
+      <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              _purple: "#1E0E62",
+            },
+            screens: {
+              mybp: "1095px",
+            },
+          },
+        },
+      };
+    </script>
 
     <script src="https://cdn.tailwindcss.com"></script>
 </body>
